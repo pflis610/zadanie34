@@ -1,7 +1,10 @@
 let str1 = 'Uwielbiam JavaScript';
 let str2 = 'Jestem świetnym programistą';
+let stringcheck = function (str1, str2) {
 if (str1.length > str2.length) {
-    console.log(str1);
+    return str1;
 } else {
-    console.log(str2);
+    return str2;
+    }
 }
+console.log(stringcheck(str1, str2));
